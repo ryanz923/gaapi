@@ -1,6 +1,5 @@
 import connect
 import pandas as pd
-import xlsxwriter
 
 VIEW_ID = 'ADD VIEW ID HERE'
 
