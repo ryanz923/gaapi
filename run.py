@@ -1,10 +1,10 @@
 from functions import return_ga_data , save_df_to_excel
 
-
+# be sure to add correct view ID
 df = return_ga_data(
     start_date='7daysAgo',
     end_date='yesterday',
-    view_id='4710681',
+    view_id='ADD VIEW ID',
     metrics=[{'expression': 'ga:sessions'},{'expression': 'ga:pageValue'},{'expression': 'ga:transactions'}],
     dimensions=[{'name' : 'ga:pageTitle'}]
     ) 
