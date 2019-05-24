@@ -2,7 +2,7 @@ import connect
 import pandas as pd
 import xlsxwriter
 
-VIEW_ID = '4710681'
+VIEW_ID = 'ADD VIEW ID HERE'
 
 def convert_reponse_to_df(response):
     list = []
